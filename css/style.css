@@ -1,3 +1,7 @@
+body {
+    position: relative;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @font-face{
@@ -20,9 +24,17 @@
         
         }
 
+section {
+    position: absolute;
+    top: 40px;
+    margin-left: 40%;
+    width: 60%;
+}
+
 header {
     background-color: black;
     padding: 40px 0 40px 40px;
+
 }
 
 header p {
@@ -36,7 +48,7 @@ input {
     cursor: url("../png/pngwing.com.png"), pointer;
     outline: none;
     border: none;
-    border-bottom: 5px solid grey;
+    border-bottom: 2px solid grey;
     background-color: black;
     color: white;
 }
@@ -46,7 +58,33 @@ form:-ms-input-placeholder {
 }
 
 input:hover {
-    cursor: url("../png/pngwing.com.png"), pointer;
+    cursor: url("./png/pngwing.com.png"), pointer;
+}
+
+section div {
+    background-color: orange;
+    height: 90px;
+    width: 90%;
+    margin-left: 10%;
+}
+
+i {
+    color: rgba(245,245,245,0.8);
+    font-size: 34px;
+    margin: 26px auto 26px 30px;
+
+}
+
+i:hover {
+    color: white;
+    opacity: 1;
+}
+
+main {
+    border-left: 70px solid grey;
+    border-right: 70px solid grey;
+    border-top: 130px solid grey;
+    padding: 250px 130px;
 }
 
 h1 {
@@ -68,4 +106,5 @@ main p:first-child {
 main p:nth-child(3) {
     font-size: 30px;
     color: grey;
+    margin-bottom: 40px;
 }

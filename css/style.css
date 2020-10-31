@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face{
+
+        font-family: 'Proxima Nova';
+        
+        src: url('./fonts/Proxima-Nova-Regular.eot');
+        
+        src: url('./fonts/Proxima-Nova-Regular.eot?iefix') format('eot'),
+        
+        url('./fonts/Proxima-Nova-Regular.woff') format('woff'),
+        
+        url('./fonts/Proxima-Nova-Regular.ttf') format('truetype'),
+        
+        url('./fonts/Proxima-Nova-Regular.svg#webfont') format('svg');
+        
+        font-weight: normal;
+        
+        font-style: normal;
+        
+        }
+
+header {
+    background-color: black;
+    padding: 40px 0 40px 40px;
+}
+
+header p {
+    font-size: 18px;
+    color: grey;
+}
+
+input {
+    font-size: 65px;
+    font-family: 'PT sans', sans-serif;
+    cursor: url("../png/pngwing.com.png"), pointer;
+    outline: none;
+    border: none;
+    border-bottom: 5px solid grey;
+    background-color: black;
+    color: white;
+}
+
+form:-ms-input-placeholder {
+    color: white;
+}
+
+input:hover {
+    cursor: url("../png/pngwing.com.png"), pointer;
+}
+
+h1 {
+    font-size: 73px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+main p:first-child {
+    font-family: 'Proxima';
+    font-size: 19px;
+    color: grey;
+}
+
+main p:nth-child(3) {
+    font-size: 30px;
+    color: grey;
+}
